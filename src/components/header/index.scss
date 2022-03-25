@@ -1,0 +1,14 @@
+.header{
+  display:flex;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  .icon{
+    margin: 0 15px;
+  }
+  .search{
+    flex: 1;
+  }
+}

@@ -1,0 +1,20 @@
+.footer{
+  display:flex;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  align-items: center;
+  .footer-icon{
+    text-align: center;
+    flex: 1;
+  }
+  .adm-button {
+    padding: 0 45px; 
+    .buy-font{
+      font-size: 1.2rem;
+    }
+    .buy-font2{
+      font-size: 0.8rem;
+    }
+  }
+}

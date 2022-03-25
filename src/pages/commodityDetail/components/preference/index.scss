@@ -1,0 +1,25 @@
+.preference-con{
+  width: 49%;
+  box-sizing: border-box;
+  // padding: 2px;
+  background-color: #fff;
+  margin: 0.5%;
+  .p-price{
+    display: flex;
+    justify-content: space-between;
+    color: var(--adm-color-weak);
+    align-items: flex-end;
+    div:first-child{
+      font-size: 10px;
+      .price{
+        color: var(--adm-color-danger);
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+
+    }
+    div:last-child{
+      font-size: 0.8rem;
+    }
+  }
+}

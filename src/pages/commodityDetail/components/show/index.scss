@@ -1,0 +1,50 @@
+.show-con{
+  background-color: #fff;
+  margin-bottom: 10px;
+  .content {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+
+  .customIndicator {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 4px 10px;
+    color: #ffffff;
+    border-radius: 15px;
+    user-select: none;
+  }
+  .msg-con{
+    margin: 0 15px 8px;
+    color: #666;
+      .price{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:10px 0;
+        color: #ff3141;
+        font-weight: 600;
+      span{
+        // color: #ff3141;
+        font-size: 1.8rem;
+      }
+      .adm-button{
+        padding: 0px 12px;
+        margin-left: 8px;
+        width: auto;
+        font-weight: 700;
+      }
+    }
+    .discount{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin:5px 0;
+    }
+  }
+}

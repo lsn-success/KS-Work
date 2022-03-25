@@ -1,0 +1,32 @@
+.detail-page{
+  width: 100%;
+  height: 100%;
+  // background-color: rgb(29, 204, 204);
+  display: flex;
+  flex-direction: column;
+  .content{
+    // height: 1000px;
+    overflow: auto;
+    flex: 1;
+  }
+  .title{
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #222;
+    font-weight: 700;
+  }
+  .prefer-page{
+    .title{
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+
+    }      
+    .prefer-item{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+}
