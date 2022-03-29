@@ -4,8 +4,7 @@
  import axios from "axios";
 
  axios.defaults.timeout = 100000;
- axios.defaults.baseURL = "";
- const token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTgsInVzZXJuYW1lIjoiYWRtaW4iLCJyb2xlIjoxLCJpYXQiOjE2NDIxMzk5NTAsImV4cCI6MTY0MjE1NDM1MH0.1SvXfv05JI5bd8-vND0_l6dptKBXdXK6X7IyZ3QCY08'
+ axios.defaults.baseURL = 'http://localhost:3001';
  /**
   * http request 拦截器
   */
@@ -14,7 +13,6 @@
      config.data = JSON.stringify(config.data);
      config.headers = {
        "Content-Type": "application/json",
-       'Authorization' : 'Bearer '+token,
      };
      return config;
    },

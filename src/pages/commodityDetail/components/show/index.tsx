@@ -26,14 +26,14 @@ function Show() {
         <div className='price'>
           <div style={{ display: 'flex' }}>
             <div style={{ fontSize: '1.2rem' }}>￥<span>10.01</span></div>
-            <Button shape='rounded' color='danger'><span style={{ fontSize: "0.9rem" }}>预估到手价</span> ￥226 ></Button>
+            <Button shape='rounded' color='danger'><span style={{ fontSize: "0.9rem" }}>预估到手价</span> ￥226 </Button>
           </div>
           <div style={{ color: '#666', fontWeight: 100 }}>已售76.0W件</div>
         </div>
         <div className='discount'>
           <div> <Tag color='#ff6430' fill='outline'>
             满5.01减5
-          </Tag></div><div>领劵 ></div></div>
+          </Tag></div><div>领劵 </div></div>
         <div className='title'>快手小店测试商品</div>
       </div>
       <div style={{ margin: '0 15px' }}>

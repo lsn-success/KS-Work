@@ -10,7 +10,7 @@ interface router {
 const routers: Array<router> = [
   {
     path: '/',
-    component: commodityDetail
+    component: commodityDetail, 
   },
   {
     path: '/commodityComment',
